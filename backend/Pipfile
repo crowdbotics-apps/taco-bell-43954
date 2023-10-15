@@ -1,0 +1,35 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.org/simple"
+name = "pypi"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[packages]
+cryptography = "~=41.0.4"
+django = "==3.2.20"
+"boto3" = "~=1.28.44"
+django-environ = "~=0.11.2"
+django-storages = "~=1.12"
+psycopg2 = "<=2.9"
+waitress = "~=2.1.2"
+whitenoise = "~=6.0.0"
+djangorestframework = "~=3.14.0"
+django-bootstrap4 = "~=22.1"
+django-allauth = "~=0.54.0"
+django-extensions = "~=3.1.5"
+packaging = "*"
+pyyaml = "~=6.0"
+pillow = "~=10.0.1"
+pytest = "==7.4.2"
+factory-boy = "==3.3.0"
+google-cloud-secret-manager = "==2.16.3"
+google-auth = "==2.22.0"
+google-cloud-storage = "==2.9.0"
+pipenv = "*"
+django-import-export = "*"
+drf-spectacular = "~=0.26.4"
+dj-rest-auth = "==4.0.1"
